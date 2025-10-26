@@ -1,0 +1,13 @@
+{
+    "model": "Naive Bayes (GaussianNB)",
+    "feature_config": {
+        "n_mfcc": 40,
+        "sample_rate": 22050,
+        "duration": 4
+    },
+    "evaluation": "10-Fold Cross-Validation",
+    "results": {
+        "mean_accuracy": 0.5373468931081332,
+        "std_accuracy": 0.05900830503050606
+    }
+}

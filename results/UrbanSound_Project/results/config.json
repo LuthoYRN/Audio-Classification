@@ -1,0 +1,40 @@
+{
+    "project_dir": "/kaggle/working/UrbanSound_Project",
+    "data_dir": "/kaggle/input/urbansound8k",
+    "base_dir": "/kaggle/input/urbansound8k",
+    "audio_dir": "/kaggle/input/urbansound8k",
+    "metadata_path": "/kaggle/input/urbansound8k/UrbanSound8K.csv",
+    "models_dir": "/kaggle/working/UrbanSound_Project/models",
+    "results_dir": "/kaggle/working/UrbanSound_Project/results",
+    "figures_dir": "/kaggle/working/UrbanSound_Project/figures",
+    "sample_rate": 22050,
+    "duration": 4,
+    "n_mfcc": 120,
+    "n_classes": 10,
+    "class_names": [
+        "air_conditioner",
+        "car_horn",
+        "children_playing",
+        "dog_bark",
+        "drilling",
+        "engine_idling",
+        "gun_shot",
+        "jackhammer",
+        "siren",
+        "street_music"
+    ],
+    "batch_size": 400,
+    "learning_rate": 0.001,
+    "num_epochs": 100,
+    "early_stopping_patience": 20,
+    "hidden_layers": [
+        1000,
+        750,
+        500,
+        250,
+        100
+    ],
+    "dropout_rate": 0.5,
+    "random_seed": 42,
+    "device": "cuda"
+}

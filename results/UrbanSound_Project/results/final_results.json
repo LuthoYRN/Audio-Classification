@@ -1,0 +1,105 @@
+{
+    "baseline": {
+        "model": "Naive Bayes",
+        "n_mfcc": 40,
+        "mean_accuracy": 0.5373468931081332,
+        "std_accuracy": 0.05900830503050606
+    },
+    "neural_network": {
+        "model": "Artificial Neural Network",
+        "architecture": [
+            1000,
+            500,
+            250
+        ],
+        "hyperparameters": {
+            "architecture": [
+                1000,
+                500,
+                250
+            ],
+            "learning_rate": 0.0005,
+            "dropout": 0.4,
+            "batch_size": 500,
+            "epochs": 400,
+            "patience": 50
+        },
+        "mean_accuracy": 0.6928057089200442,
+        "std_accuracy": 0.047757934893283935,
+        "min_accuracy": 0.5837837837837838,
+        "max_accuracy": 0.7713675213675214,
+        "fold_results": [
+            {
+                "fold": 1,
+                "val_accuracy": 0.7015765765765766,
+                "test_accuracy": 0.6632302405498282,
+                "epochs_trained": 52
+            },
+            {
+                "fold": 2,
+                "val_accuracy": 0.6378378378378379,
+                "test_accuracy": 0.6734234234234234,
+                "epochs_trained": 54
+            },
+            {
+                "fold": 3,
+                "val_accuracy": 0.7333333333333333,
+                "test_accuracy": 0.5837837837837838,
+                "epochs_trained": 109
+            },
+            {
+                "fold": 4,
+                "val_accuracy": 0.8023504273504274,
+                "test_accuracy": 0.692929292929293,
+                "epochs_trained": 84
+            },
+            {
+                "fold": 5,
+                "val_accuracy": 0.7035236938031592,
+                "test_accuracy": 0.7713675213675214,
+                "epochs_trained": 95
+            },
+            {
+                "fold": 6,
+                "val_accuracy": 0.7577565632458234,
+                "test_accuracy": 0.692588092345079,
+                "epochs_trained": 94
+            },
+            {
+                "fold": 7,
+                "val_accuracy": 0.707196029776675,
+                "test_accuracy": 0.7350835322195705,
+                "epochs_trained": 59
+            },
+            {
+                "fold": 8,
+                "val_accuracy": 0.7598039215686274,
+                "test_accuracy": 0.6898263027295285,
+                "epochs_trained": 136
+            },
+            {
+                "fold": 9,
+                "val_accuracy": 0.7347670250896058,
+                "test_accuracy": 0.7340686274509803,
+                "epochs_trained": 112
+            },
+            {
+                "fold": 10,
+                "val_accuracy": 0.6769759450171822,
+                "test_accuracy": 0.6917562724014337,
+                "epochs_trained": 56
+            }
+        ]
+    },
+    "comparison": {
+        "baseline_accuracy": 53.73468931081332,
+        "nn_accuracy": 69.28057089200442,
+        "improvement": 15.5458815811911
+    },
+    "experiments": {
+        "architectures_tested": 5,
+        "learning_rates_tested": 6,
+        "dropout_rates_tested": 6,
+        "batch_sizes_tested": 8
+    }
+}
