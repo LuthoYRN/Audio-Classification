@@ -15,7 +15,7 @@ This notebook implements and evaluates audio classification models on the UrbanS
 **Results:**
 - Baseline Accuracy: ~53%
 - Neural Network Accuracy: ~69%
-- Improvement: +18 percentage points
+- Improvement: +15 percentage points
 
 ---
 
