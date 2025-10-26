@@ -13,9 +13,9 @@ This notebook implements and evaluates audio classification models on the UrbanS
 **Evaluation:** 10-fold cross-validation using predefined dataset splits (following Salamon et al. 2014 recommendations)
 
 **Results:**
-- Baseline Accuracy: ~45%
-- Neural Network Accuracy: ~60%
-- Improvement: +15 percentage points
+- Baseline Accuracy: ~53%
+- Neural Network Accuracy: ~69%
+- Improvement: +18 percentage points
 
 ---
 
